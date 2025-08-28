@@ -13,7 +13,19 @@ This is my very first Python program ✍️
 ```python
 print("Namaskara Karnataka")
 ## How to Run
+
 1. Install Python (if not installed) → [Download here](https://www.python.org/downloads/)  
+
 2. Clone this repository:
    ```bash
    git clone https://github.com/Hegde1527/Simple_code_with_Me.git
+Navigate to the folder:
+
+bash
+Copy code
+cd Simple_code_with_Me
+Run the Python file:
+
+bash
+Copy code
+python p1.py

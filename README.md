@@ -12,3 +12,8 @@ This is my very first Python program ✍️
 ## Code Example
 ```python
 print("Namaskara Karnataka")
+## How to Run
+1. Install Python (if not installed) → [Download here](https://www.python.org/downloads/)  
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/Hegde1527/Simple_code_with_Me.git

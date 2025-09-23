@@ -33,10 +33,10 @@ This program explains how variables work in Python.
 ```python
 a = 10
 b = 20
-print(a)
-print(b)
-print("a")
-print(a + b)
+print(a)              # Output = 10
+print(b)              # Output = 20
+print("a")            # Output = a
+print(a + b)          # Output = 30
 
 ```
 Run the Python file:

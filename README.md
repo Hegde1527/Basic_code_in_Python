@@ -16,17 +16,10 @@ print("Namaskara Karnataka")
 ## How to Run
 
 Install Python (if not installed) → Download here
-
 Clone this repository:
-
 git clone https://github.com/Hegde1527/Basic_code_in_Python.git
-
-
 Navigate to the folder:
-
 cd Simple_code_with_Me
-
-
 Run the Python file:
 
 python p1.py

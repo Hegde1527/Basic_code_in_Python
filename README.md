@@ -25,12 +25,27 @@ Run the Python file:
 python p1.py
 
 
-## Program 2: Variables and Addition
+## Program 2: Variables 
 
-This program explains how variables work in Python.  
+* Variables are containers that hold data values.
+* They are created when we assign a value .
+* In python there is no need of declaring variables because Python is dynamically typed.
+
+Variable Naming Rules:
+
+* Variable names can contain letters(A-Z , a-z), numbers(0-9), and underscorea(_ ).
+* Variable names must start with a letter or an underscore.
+                example: a = 10       ✓
+                         234 = hi     X
+                        _hello = hi   ✓
+  
+* x = 5.0
+  ---> Assigning a float value to the variable x .
+* w = "monkey"
+  ----> Assigning a String value to the varible w .
 
 ### Code
-```python
+
 a = 10
 b = 20
 print(a)              # Output = 10
@@ -38,12 +53,6 @@ print(b)              # Output = 20
 print("a")            # Output = a
 print(a + b)          # Output = 30
 
-```
-Run the Python file:
-
-python p2.py
-
-* Variables are containers that hold data values.
 
 * a = 10, b = 20 → assigning values to variables.
 

@@ -30,3 +30,7 @@ cd Simple_code_with_Me
 Run the Python file:
 
 python p1.py
+
+
+
+Program2 : Variables 

@@ -45,6 +45,7 @@ Variable Naming Rules:
   ----> Assigning a String value to the varible w .
 
 ### Code
+```
 
 a = 10
 b = 20
@@ -53,7 +54,7 @@ print(b)              # Output = 20
 print("a")            # Output = a
 print(a + b)          # Output = 30
 
-
+```
 * a = 10, b = 20 → assigning values to variables.
 
 * print(a) → prints the value stored in a (10).

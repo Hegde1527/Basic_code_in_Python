@@ -25,5 +25,30 @@ Run the Python file:
 python p1.py
 
 
+## Program 2: Variables and Addition
 
-##Program2 : Variables 
+This program explains how variables work in Python.  
+
+### Code
+```python
+a = 10
+b = 20
+print(a)
+print(b)
+print("a")
+print(a + b)
+
+```
+Run the Python file:
+
+python p2.py
+
+* Variables are containers that hold data values.
+
+* a = 10, b = 20 → assigning values to variables.
+
+* print(a) → prints the value stored in a (10).
+
+* print("a") → prints the letter a, not the value.
+
+* print(a+b) → adds the values of a and b (10 + 20 = 30).

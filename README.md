@@ -1,4 +1,4 @@
-# Simple_code_with_Me
+# Basic_code_in_Python
 
 This is my very first Python program ✍️
 
@@ -19,7 +19,7 @@ Install Python (if not installed) → Download here
 
 Clone this repository:
 
-git clone https://github.com/Hegde1527/Simple_code_with_Me.git
+git clone https://github.com/Hegde1527/Basic_code_in_Python.git
 
 
 Navigate to the folder:

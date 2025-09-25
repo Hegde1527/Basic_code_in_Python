@@ -108,4 +108,19 @@ print(a + b)          # Output = 30
            d = true
            print(type(b))   #Output: <class 'bool'>
 
+* Type Conversion :
 
+   --> Python allows us to convert the data types between them using functions like int() ,float() ,str() etc.....,
+
+  Example:
+  ```
+      x = 10           # x is an integer
+      y = 100.98       # y is an float
+      z = "hello"      # z is string
+      print(x+z)       #TypeError: unsupported operand type(s) for +: 'int' and 'str'
+      print(str(x)+z)  #Output: 10hello
+      print(x+int(z))  #Output:error
+  Note : Cannot convert non-numeric strings like 'hello' into an integer. You need either a number string or input validation.
+  
+  
+  

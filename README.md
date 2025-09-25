@@ -32,7 +32,7 @@ python p1.py
 * They are created when we assign a value .
   
 * In python there is no need of declaring variables because Python is dynamically typed.
-* 
+  
 
 Variable Naming Rules:
 
@@ -94,6 +94,7 @@ print(a + b)          # Output = 30
    ---> we use type() function to check the type of variable .
   
   Example:
+  ```
            a = 100
            print(type(a))    #Output: <class 'int'>
            b = 10.9
@@ -103,3 +104,4 @@ print(a + b)          # Output = 30
            d = true
            print(type(b))   #Output: <class 'bool'>
 
+```

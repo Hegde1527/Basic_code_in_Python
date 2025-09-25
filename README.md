@@ -72,7 +72,7 @@ print(a + b)          # Output = 30
 
   ## Program 3: Data Types
 
-1 Python has various built-in data types.
+1. Python has various built-in data types.
   
   --->some commonly used are:
   
@@ -96,7 +96,7 @@ print(a + b)          # Output = 30
       * The boolean values will be either True / False .
   
 
-2 Type Checking :
+2. Type Checking :
    ---> we use type() function to check the type of variable .
   
   Example:
@@ -111,7 +111,7 @@ print(a + b)          # Output = 30
            print(type(b))   #Output: <class 'bool'>
 ```
 
-3 Type Conversion :
+3. Type Conversion :
 
    --> Python allows us to convert the data types between them using functions like int() ,float() ,str() etc.....,
 
@@ -126,7 +126,7 @@ print(a + b)          # Output = 30
   Note : Cannot convert non-numeric strings like 'hello' into an integer. You need either a number string or input validation.
   ```
 
-4 Arithematic Operations :
+4. Arithematic Operations :
   1. Addition ('+')
   2. Subtraction ('-')
   3. Multiplication ('*')
@@ -152,7 +152,7 @@ Example:
 ```
 
 
-5 Assigning Values to Multipe Variables :
+5. Assigning Values to Multipe Variables :
 
   Python allows us to assign c=values to multiple variables in a single line.
 
@@ -173,7 +173,7 @@ we can also assign the same values to the multiple variables in onle line .
         print(a,b,c)  # Output: 60
 
 ```
-6 Variable Reassignment :
+6. Variable Reassignment :
  We can change the value of a variable at any point in our program.
  ```
      a = 10
@@ -181,9 +181,58 @@ we can also assign the same values to the multiple variables in onle line .
      a = 30
      print(a)           # Output: 30
 ```
- 
+## Program 4: Input/Output  
 
+1. Input from the User :
+   
+   * we can use the input() function to take the input from the User.
+     
+   * the data entered by the User is always received as a String.
+     
+   * If we want to use it as a different data type like integer/float.
+  
+   * we need to convert it using type conversion functions like int() or float().
+     
+ ```
+   Name = input("Enter your name : ")
+   Age = input("Enter your age : ")
+   age = int(input("Enter your age : "))
+   print(Name)    #Output : Enter your name : xyz
+   print(Age)     #Output : enter your age : 23  , it is taken as a string not as an integer.
+   print(age)     #Output : enter your age : 23  , it is taken as an integer.
+   
+```
+2. Output to the console
 
+    * The Print() fnction is used to display the output to the console.
+  
+    * We can use it to display text , Variables, or the results of Expressions.
+  
+      ```
+      print("hello! how are you .")  # Output : hello! how are you.
+      
+       
+## Program 5: String Manipulation
+
+String are sequence i-of characters , In python we use many useful methods to manipulate Strings.
+
+1. Common String Operation :
+   1.1  Concatenation :
+
+     * Joining 2 or more strings together using the ' + ' operator.
+       ```
+          first_name = "hari"
+          middle_name = "priya"
+          last_name = " S "
+          full_name = first_name + middle_name + " " + last_name
+          print( full_name )     # Output : haripriya  S
+       
+   1.2 Repetition :
+
+     * Repeating a string multiple times using ' * ' operator .
+       ```
+         g1 = " come fast, "
+         print(g1 * 5)        # Output :  come fast,  come fast,  come fast,  come fast,  come fast, 
 
 
                 

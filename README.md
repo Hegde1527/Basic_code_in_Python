@@ -135,6 +135,9 @@ print(a + b)          # Output = 30
   6. Modulus ('%')
   7. Exponentiation ('**')
 
+     
+---> In the given below example , The variables name is called as 'Operands' and the performing Operations is known as 'Operators' .  
+
 Example:
 ```
     a = 20
@@ -162,6 +165,7 @@ Example:
 we can also assign the same values to the multiple variables in onle line .
 
 ```
+```
  a = b = c = 60
 print(a)      # Output: 60
 print(b)      # Output: 60
@@ -169,7 +173,9 @@ print(c)      # Output: 60
 print(a,b,c)  # Output: 60
 
       
-  
+  ```
+
+
 
                 
   

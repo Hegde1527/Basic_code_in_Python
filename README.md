@@ -28,13 +28,18 @@ python p1.py
 ## Program 2: Variables 
 
 * Variables are containers that hold data values.
+  
 * They are created when we assign a value .
+  
 * In python there is no need of declaring variables because Python is dynamically typed.
+* 
 
 Variable Naming Rules:
 
 * Variable names can contain letters(A-Z , a-z), numbers(0-9), and underscorea(_ ).
+  
 * Variable names must start with a letter or an underscore.
+  
                 example: a = 10       ✓
                          234 = hi     X
                         _hello = hi   ✓
@@ -66,22 +71,28 @@ print(a + b)          # Output = 30
   ## Program 3: Data Types
 
 * Python has various built-in data types.
+  
   --->some commonly used are:
+  
   i. int:
       * Interger we will use as int in short.
       * example: 1,2,-3,100 etc.....,
+  
   ii. float:
       * Used for floating-point numbers.
       * example: 3.13,7.89,666.9 etc.....,
+  
   iii. str:
       * Used for string .
       * example: "hello world" , "how are you" , "i am so happy to see you" etc......,
+  
   iv. bool:
       * Used for Boolean .
       * The boolean values will be either True / False .
 
 * Type Checking :
    ---> we use type() function to check the type of variable .
+  
   Example:
            a = 100
            print(type(a))    #Output: <class 'int'>

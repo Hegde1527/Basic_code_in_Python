@@ -166,14 +166,23 @@ we can also assign the same values to the multiple variables in onle line .
 
 ```
 ```
- a = b = c = 60
-print(a)      # Output: 60
-print(b)      # Output: 60
-print(c)      # Output: 60
-print(a,b,c)  # Output: 60
+        a = b = c = 60
+        print(a)      # Output: 60
+        print(b)      # Output: 60
+        print(c)      # Output: 60
+        print(a,b,c)  # Output: 60
 
-      
-  ```
+```
+6 Variable Reassignment :
+ We can change the value of a variable at any point in our program.
+ ```
+     a = 10
+     print(a)           # Output: 10
+     a = 30
+     print(a)           # Output: 30
+```
+ 
+
 
 
 

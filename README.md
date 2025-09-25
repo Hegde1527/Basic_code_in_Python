@@ -40,9 +40,11 @@ Variable Naming Rules:
   
 * Variable names must start with a letter or an underscore.
   
-                example: a = 10       ✓
-                         234 = hi     X
-                        _hello = hi   ✓
+  Example:
+  ```
+                 a = 10       ✓
+                 234 = hi     X
+                 _hello = hi   ✓
   
 * x = 5.0
   ---> Assigning a float value to the variable x .

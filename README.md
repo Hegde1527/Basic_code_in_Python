@@ -9,7 +9,7 @@ This is my very first Python program ✍️
 - 🛠️ If there’s an error, execution stops, so debugging is easier.  
 - 📖 It has very simple syntax (almost like English).  
 
-## Code Example
+ Example
 ```python
 print("Namaskara Karnataka")
 ````

@@ -124,5 +124,34 @@ print(a + b)          # Output = 30
       print(x+int(z))  #Output:error
   Note : Cannot convert non-numeric strings like 'hello' into an integer. You need either a number string or input validation.
   
+
+* Arithematic Operations :
+  1. Addition ('+')
+  2. Subtraction ('-')
+  3. Multiplication ('*')
+  4. Division ('/')
+  5. Floor Division ('//')
+  6. Modulus ('%')
+  7. Exponentiation ('**')
+
+Example:
+```
+    a = 20
+    b = 30
+    print(a+b)    # Output : 50
+    print(a-b)    # Output : -10
+    print(a*b)    # Output : 600
+    print(a/b)    # Output : 0.666666666666
+    print(a//b)   # Output : 0
+    print(a%b)    # Output : 20
+    print(a**b)   # Output : 1073741824000000000000000000000000000000
+```
+
+
+* Assigning Values to Multipe Variables :
+
+  Python allows us to assign c=values to multiple variables in a single line.
   
+
+                
   

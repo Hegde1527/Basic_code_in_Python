@@ -74,21 +74,25 @@ print(a + b)          # Output = 30
   
   --->some commonly used are:
   
-  i. int:
+  1. int:
       * Interger we will use as int in short.
       * example: 1,2,-3,100 etc.....,
   
-  ii. float:
+  
+  2. float:
       * Used for floating-point numbers.
       * example: 3.13,7.89,666.9 etc.....,
   
-  iii. str:
+  
+  3. str:
       * Used for string .
       * example: "hello world" , "how are you" , "i am so happy to see you" etc......,
   
-  iv. bool:
+  
+  4. bool:
       * Used for Boolean .
       * The boolean values will be either True / False .
+  
 
 * Type Checking :
    ---> we use type() function to check the type of variable .
@@ -104,4 +108,4 @@ print(a + b)          # Output = 30
            d = true
            print(type(b))   #Output: <class 'bool'>
 
-```
+

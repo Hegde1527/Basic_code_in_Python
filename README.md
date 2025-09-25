@@ -72,7 +72,7 @@ print(a + b)          # Output = 30
 
   ## Program 3: Data Types
 
-* Python has various built-in data types.
+1 Python has various built-in data types.
   
   --->some commonly used are:
   
@@ -96,7 +96,7 @@ print(a + b)          # Output = 30
       * The boolean values will be either True / False .
   
 
-* Type Checking :
+2 Type Checking :
    ---> we use type() function to check the type of variable .
   
   Example:
@@ -109,8 +109,9 @@ print(a + b)          # Output = 30
            print(type(c))   #Output: <class 'str'>
            d = true
            print(type(b))   #Output: <class 'bool'>
+```
 
-* Type Conversion :
+3 Type Conversion :
 
    --> Python allows us to convert the data types between them using functions like int() ,float() ,str() etc.....,
 
@@ -123,9 +124,9 @@ print(a + b)          # Output = 30
       print(str(x)+z)  #Output: 10hello
       print(x+int(z))  #Output:error
   Note : Cannot convert non-numeric strings like 'hello' into an integer. You need either a number string or input validation.
-  
+  ```
 
-* Arithematic Operations :
+4 Arithematic Operations :
   1. Addition ('+')
   2. Subtraction ('-')
   3. Multiplication ('*')
@@ -148,9 +149,26 @@ Example:
 ```
 
 
-* Assigning Values to Multipe Variables :
+5 Assigning Values to Multipe Variables :
 
   Python allows us to assign c=values to multiple variables in a single line.
+
+  Example:
+  ```
+        x , y = 10 ,20 # you can initalize like this as well
+        print(x)       # Output : 10
+        print(y)       # Output : 20
+
+we can also assign the same values to the multiple variables in onle line .
+
+```
+ a = b = c = 60
+print(a)      # Output: 60
+print(b)      # Output: 60
+print(c)      # Output: 60
+print(a,b,c)  # Output: 60
+
+      
   
 
                 

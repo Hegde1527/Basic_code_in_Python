@@ -62,3 +62,33 @@ print(a + b)          # Output = 30
 * print("a") → prints the letter a, not the value.
 
 * print(a+b) → adds the values of a and b (10 + 20 = 30).
+
+  ## Program 3: Data Types
+
+* Python has various built-in data types.
+  --->some commonly used are:
+  i. int:
+      * Interger we will use as int in short.
+      * example: 1,2,-3,100 etc.....,
+  ii. float:
+      * Used for floating-point numbers.
+      * example: 3.13,7.89,666.9 etc.....,
+  iii. str:
+      * Used for string .
+      * example: "hello world" , "how are you" , "i am so happy to see you" etc......,
+  iv. bool:
+      * Used for Boolean .
+      * The boolean values will be either True / False .
+
+* Type Checking :
+   ---> we use type() function to check the type of variable .
+  Example:
+           a = 100
+           print(type(a))    #Output: <class 'int'>
+           b = 10.9
+           print(type(b))   #Output: <class 'float'>
+           c = "buddy"
+           print(type(c))   #Output: <class 'str'>
+           d = true
+           print(type(b))   #Output: <class 'bool'>
+

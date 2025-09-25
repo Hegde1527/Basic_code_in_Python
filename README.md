@@ -70,7 +70,7 @@ print(a + b)          # Output = 30
 
 * print(a+b) → adds the values of a and b (10 + 20 = 30).
 
-  ## Program 3: Data Types
+ ## Program 3: Data Types
 
 1. Python has various built-in data types.
   

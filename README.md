@@ -217,6 +217,7 @@ we can also assign the same values to the multiple variables in onle line .
 String are sequence i-of characters , In python we use many useful methods to manipulate Strings.
 
 1. Common String Operation :
+   
    1.1  Concatenation :
 
      * Joining 2 or more strings together using the ' + ' operator.
